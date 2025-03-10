@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    --width-bar: 35vw;
+}
+
+/* side content */
+.sidebar {
+    height: 100vh;
+    width: var(--width-bar);
+    position: fixed;
+    background-color: darkolivegreen;
+
+    text-align: center;
+}
+
+.name {
+    height: 20vh;
+    width: 100%;
+    
+    position: absolute;
+    top: 20vh;
+    background-color: rgb(0,0,0, 40%);
+    display: flex;
+}
+
+
+
+.credit {
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+
+    font-size: small;
+    color: rgb(228, 240, 245);
+}
+
+a {
+    color: rgb(228, 240, 245);
+}
